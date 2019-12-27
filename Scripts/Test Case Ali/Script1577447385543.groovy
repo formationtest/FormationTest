@@ -15,3 +15,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+WebUI.deleteAllCookies()
+WebUI.navigateToUrl('http://localhost/site/')
+WebUI.waitForPageLoad(10)
+WebUI.sleep(1000)
+WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('Object Repository/Pages'))
+WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('Object Repository/Cost'))
+WebUI.waitForPageLoad(10)
+WebUI.click(findTestObject('Object Repository/Barre days'))
+WebUI.waitForPageLoad(10)
+WebUI. sleep(1000)
+WebUI.click(findTestObject('Object Repository/Team barre'))
+WebUI.sleep(10000)
